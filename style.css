@@ -88,6 +88,13 @@ nav ul li a {
     padding-right: 230px;
 }
 
+.main-visual .copy-vertical span {
+    background: #fff;
+    display: inline-block;
+    padding: 1rem;
+    letter-spacing: 0.17rem;
+}
+
 .main-visual picture {
     height: 750px;
 }
