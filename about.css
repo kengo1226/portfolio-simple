@@ -1,0 +1,89 @@
+.sub-mv .copy-vertical span {
+    background: #fff;
+    display: inline-block;
+    padding: 1rem;
+}
+
+#profile {
+    margin-top: 9rem;
+}
+
+#profile .profile-content h3 {
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-bottom: 2.2rem;
+}
+
+#profile .profile-content h3 span {
+    margin-left: 1.6rem;
+    font-size: 2rem;
+}
+
+#profile .profile-content p {
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+#profile .service {
+    margin-top: 8rem;
+}
+
+.service .service-row {
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 4.2rem;
+    padding-bottom: 4.2rem; */
+    border-bottom: 1px solid #d1d1d1;
+    padding: 4.2rem 2rem 4.2rem 2rem;
+}
+
+.service-number {
+    font-family: "Noto Serif JP", serif;
+    font-weight: normal;
+    font-size: 9rem;
+    width: 12%;
+    text-align: center;
+}
+
+.service-content {
+    width: 81%;
+}
+
+.service-content h3 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.service-content p {
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+/* ======== スマホ ======== */
+@media screen and (max-width: 768px) {
+    .service .service-row {
+        display: block;
+        padding: 4.2rem 1.7rem 4.2rem 1.7rem;
+    }
+
+    .service-number {
+        font-size: 6.5rem;
+        width: 100%;
+        text-align: left;
+    }
+    
+    .service-content {
+        width: 100%;
+    }
+}
+
+/* ======== スマホ Ver2 ======== */
+@media screen and (max-width: 549px) {
+    #profile .service {
+        margin-top: 5rem;
+    }
+
+    .service .service-row {
+        padding: 3.2rem 1.7rem 3.2rem 1.7rem;
+    }
+}

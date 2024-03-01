@@ -1,0 +1,32 @@
+.sub-mv .copy-vertical span {
+    background: #fff;
+    display: inline-block;
+    padding: 1rem;
+}
+
+#production {
+    margin-top: 9rem;
+}
+
+.production-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.production-container .work {
+    width: 47%;
+    margin-bottom: 5rem;
+}
+
+/* ======== スマホ ======== */
+@media screen and (max-width: 768px) {
+    .production-container {
+        display: block;
+    }
+
+    .production-container .work {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+}
